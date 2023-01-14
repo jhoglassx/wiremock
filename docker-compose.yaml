@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  wiremock:
+    image: wiremock/wiremock
+    volumes:
+      - ./files:/home/jhoglas/workspace_pessoal/wiremock/files
+      - ./mappings:/home/wiremock/mappings
+    ports:
+      - 8080:8080
