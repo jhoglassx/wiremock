@@ -1,0 +1,55 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPathPattern": "doortodoorsalesperson/product",
+        "headers": {
+            "accept": {
+                "contains": "application/json"
+            }
+        }
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": [
+            {
+                "id": 1,
+                "name": "caniza azul",
+                "type": "roupa",
+                "value":26.00,
+                "date_create":"2023-20-12",
+                "date_update":"2023-20-12"
+            },{
+                "id": 2,
+                "name": "caniza verde",
+                "type": "roupa",
+                "value":27.00,
+                "date_create":"2023-20-12",
+                "date_update":"2023-20-12"
+            },{
+                "id": 3,
+                "name": "caniza preta",
+                "type": "roupa",
+                "value":28.00,
+                "date_create":"2023-20-12",
+                "date_update":"2023-20-12"
+            },{
+                "id": 4,
+                "name": "calça jeans azul",
+                "type": "roupa",
+                "value":50.00,
+                "date_create":"2023-20-12",
+                "date_update":"2023-20-12"
+            },{
+                "id": 5,
+                "name": "calça jeans preta",
+                "type": "roupa",
+                "value":60.00,
+                "date_create":"2023-20-12",
+                "date_update":"2023-20-12"
+            }
+        ]
+    }
+}
