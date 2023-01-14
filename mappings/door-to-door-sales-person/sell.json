@@ -1,0 +1,50 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPathPattern": "doortodoorsalesperson/sell",
+        "headers": {
+            "accept": {
+                "contains": "application/json"
+            }
+        }
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": [
+            {
+                "id": 1,
+                "product_id": "1",
+                "value": 20.00,
+                "date_create":"2023-20-12",
+                "date_update":"2023-20-12"
+            },{
+                "id": 2,
+                "product_id": "2",
+                "type": 27.00,
+                "date_create":"2023-20-12",
+                "date_update":"2023-20-12"
+            },{
+                "id": 3,
+                "product_id": "2",
+                "type": 26.00,
+                "date_create":"2023-20-12",
+                "date_update":"2023-20-12"
+            },{
+                "id": 4,
+                "product_id": "3",
+                "type": 35.00,
+                "date_create":"2023-20-12",
+                "date_update":"2023-20-12"
+            },{
+                "id": 5,
+                "product_id": "4",
+                "type": 30.00,
+                "date_create":"2023-20-12",
+                "date_update":"2023-20-12"
+            }
+        ]
+    }
+}
