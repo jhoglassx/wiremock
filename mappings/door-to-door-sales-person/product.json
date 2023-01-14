@@ -1,7 +1,7 @@
 {
     "request": {
         "method": "GET",
-        "urlPathPattern": "doortodoorsalesperson/products",
+        "urlPathPattern": "doortodoorsalesperson/product",
         "headers": {
             "accept": {
                 "contains": "application/json"
