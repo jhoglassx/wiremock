@@ -1,11 +1,11 @@
 {
     "request": {
         "method": "GET",
-        "urlPathPattern": "doortodoorsalesperson/buy",
+        "urlPathPattern": "/doortodoorsalesperson/buy",
         "headers": {
-            "accept": {
-                "contains": "application/json"
-            }
+            // "accept": {
+            //     "contains": "application/json"
+            // }
         }
     },
     "response": {

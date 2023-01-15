@@ -1,11 +1,11 @@
 {
     "request": {
         "method": "GET",
-        "urlPathPattern": "doortodoorsalesperson/sell",
+        "urlPathPattern": "/doortodoorsalesperson/sell",
         "headers": {
-            "accept": {
-                "contains": "application/json"
-            }
+            // "accept": {
+            //     "contains": "application/json"
+            // }
         }
     },
     "response": {
@@ -16,39 +16,120 @@
         "jsonBody": [
             {
                 "id": 1,
-                "product_id": "1",
+                "products": [
+                    {
+                        "id":1,
+                        "product_id":1,
+                        "quantity": 2,
+                        "value":20.00,
+                        "date_create":"2023-20-12",
+                        "date_update":"2023-20-12"
+                    },
+                    {
+                        "id":2,
+                        "product_id":3,
+                        "quantity": 5,
+                        "value":15.00,
+                        "date_create":"2023-20-12",
+                        "date_update":"2023-20-12"
+                    }
+                ],
                 "client_id":"1",
-                "value": 20.00,
                 "date_create":"2023-20-12",
                 "date_update":"2023-20-12"
             },{
                 "id": 2,
-                "product_id": "2",
-                "client_id":"2",
-                "value": 27.00,
+                "products": [
+                    {
+                        "id":3,
+                        "product_id":1,
+                        "quantity": 2,
+                        "value":20.00,
+                        "date_create":"2023-20-12",
+                        "date_update":"2023-20-12"
+                    },
+                    {
+                        "id":4,
+                        "product_id":3,
+                        "quantity": 2,
+                        "value":15.00,
+                        "date_create":"2023-20-12",
+                        "date_update":"2023-20-12"
+                    }
+                ],
+                "client_id":2,
                 "date_create":"2023-20-12",
                 "date_update":"2023-20-12"
             },{
                 "id": 3,
-                "product_id": "2",
-                "client_id":"3",
+                "products": [
+                    {
+                        "id":5,
+                        "product_id":1,
+                        "quantity": 2,
+                        "value":20.00,
+                        "date_create":"2023-20-12",
+                        "date_update":"2023-20-12"
+                    },
+                    {
+                        "id":6,
+                        "product_id":3,
+                        "quantity": 3,
+                        "value":15.00,
+                        "date_create":"2023-20-11",
+                        "date_update":"2023-20-11"
+                    }
+                ],
+                "client_id":3,
                 "value": 26.00,
-                "date_create":"2023-20-12",
-                "date_update":"2023-20-12"
+                "date_create":"2023-20-13",
+                "date_update":"2023-20-13"
             },{
                 "id": 4,
-                "product_id": "3",
-                "client_id":"3",
-                "value": 35.00,
-                "date_create":"2023-20-12",
-                "date_update":"2023-20-12"
+                "products": [
+                    {
+                        "id":7,
+                        "product_id":1,
+                        "quantity": 2,
+                        "value":20.00,
+                        "date_create":"2023-20-12",
+                        "date_update":"2023-20-12"
+                    },
+                    {
+                        "id":8,
+                        "product_id":4,
+                        "quantity": 2,
+                        "value":25.00,
+                        "date_create":"2023-20-10",
+                        "date_update":"2023-20-10"
+                    }
+                ],
+                "client_id":3,
+                "date_create":"2023-20-13",
+                "date_update":"2023-20-13"
             },{
                 "id": 5,
-                "product_id": "4",
-                "client_id":"1",
-                "value": 30.00,
-                "date_create":"2023-20-12",
-                "date_update":"2023-20-12"
+                "products": [
+                    {
+                        "id":9,
+                        "product_id":5,
+                        "quantity": 1,
+                        "value":10.00,
+                        "date_create":"2023-20-13",
+                        "date_update":"2023-20-13"
+                    },
+                    {
+                        "id":10,
+                        "product_id":3,
+                        "quantity": 2,
+                        "value":15.00,
+                        "date_create":"2023-20-13",
+                        "date_update":"2023-20-13"
+                    }
+                ],
+                "client_id":1,
+                "date_create":"2023-20-13",
+                "date_update":"2023-20-13"
             }
         ]
     }
