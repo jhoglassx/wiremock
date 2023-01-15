@@ -17,7 +17,7 @@
             {
                 "id": 1,
                 "name": "client 1",
-                "adrress": "roupa",
+                "address": "roupa",
                 "email":"client_1@test.com",
                 "telefone":"31 999999991",
                 "date_create":"2023-20-12",
@@ -26,7 +26,7 @@
             {
                 "id": 2,
                 "name": "client 2",
-                "adrress": "roupa",
+                "address": "roupa",
                 "email":"client_2@test.com",
                 "telefone":"31 999999992",
                 "date_create":"2023-20-12",
@@ -35,7 +35,7 @@
             {
                 "id": 3,
                 "name": "client 3",
-                "adrress": "roupa",
+                "address": "roupa",
                 "email":"client_3@test.com",
                 "telefone":"31 999999993",
                 "date_create":"2023-20-12",

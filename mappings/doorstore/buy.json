@@ -16,32 +16,32 @@
         "jsonBody": [
             {
                 "id": 1,
-                "product_id": "1",
+                "product_id": 1,
                 "value": 10.00,
                 "date_create":"2023-20-12",
                 "date_update":"2023-20-12"
             },{
                 "id": 2,
-                "product_id": "2",
-                "type": 17.00,
+                "product_id": 2,
+                "value": 17.00,
                 "date_create":"2023-20-12",
                 "date_update":"2023-20-12"
             },{
                 "id": 3,
-                "product_id": "2",
-                "type": 16.00,
+                "product_id": 2,
+                "value": 16.00,
                 "date_create":"2023-20-12",
                 "date_update":"2023-20-12"
             },{
                 "id": 4,
-                "product_id": "3",
-                "type": 25.00,
+                "product_id": 3,
+                "value": 25.00,
                 "date_create":"2023-20-12",
                 "date_update":"2023-20-12"
             },{
                 "id": 5,
-                "product_id": "4",
-                "type": 20.00,
+                "product_id": 4,
+                "value": 20.00,
                 "date_create":"2023-20-12",
                 "date_update":"2023-20-12"
             }
